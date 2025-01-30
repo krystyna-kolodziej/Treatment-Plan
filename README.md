@@ -157,6 +157,12 @@ If you need help:
 - Submit a pull request with improvements
 - Contact the maintainers
 
+# Treatment Plan Generation System
+
+📚 [View Instructions for Adding Guidelines](GUIDELINE-INSTRUCTIONS.md) 
+
+[Rest of your README content...]
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
