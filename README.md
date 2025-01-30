@@ -159,7 +159,7 @@ If you need help:
 
 # Treatment Plan Generation System
 
-📚 [View Instructions for Adding Guidelines](GUIDELINE-INSTRUCTIONS.md) 
+📚 [View Instructions for Adding Guidelines](INSTRUCTIONS.md) 
 
 [Rest of your README content...]
 
