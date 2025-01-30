@@ -2,15 +2,23 @@
 
 ## Basic Formatting Rules
 
-1. Use Markdown Headers:
-```markdown
-# Main Category (e.g., System)
-## Subcategory
-### Specific Condition
-```
+When adding new guidelines, follow these key formatting principles:
 
-2. Standard Protocol Format:
-```markdown
+### Header Structure
+1. Main Category (System) - Use # (one hashtag)
+2. Subcategory - Use ## (two hashtags)
+3. Specific Condition - Use ### (three hashtags)
+
+### Standard Protocol Format
+
+Each condition should be formatted as follows:
+
+1. Start with condition name as a header
+2. List trigger conditions under "When:"
+3. Number each protocol step
+4. Use bullet points for details under each step
+
+Example:
 ### [Condition Name]
 **When: [List trigger conditions]**
 1. Initial Approach:
@@ -20,162 +28,37 @@
 2. If No Improvement:
    - Next step treatment
    - Timeline for progression
-```
 
-## Template Structures
+## Required Elements for Each Guideline
 
-### Basic Protocol Template:
-```markdown
-### [Condition Name]
-**When: [Lab values or symptoms that trigger this protocol]**
-1. Primary Protocol:
-   - Medication/Supplement: dosage
-   - Additional treatment: details
-   
-2. Support Protocol:
-   - Supporting treatments
-   - Monitoring needs
+Every new guideline entry must include:
 
-3. Progression Criteria:
-   - When to move to next step
-   - What to monitor
-```
+1. Clear Trigger Conditions
+   - Specific lab values
+   - Symptoms
+   - Other clinical indicators
 
-### Complex Protocol Template:
-```markdown
-### [Condition Name]
-**When: [Multiple trigger conditions]**
-
-**Severity Level 1:**
-1. Initial Approach:
-   - Treatment A: dosage
-   - Treatment B: dosage
-
-2. Monitoring:
-   - Lab tests
-   - Frequency
-   - Target values
-
-**Severity Level 2:**
-[Follow same structure]
-```
-
-### Combination Protocol Template:
-```markdown
-### [Combined Conditions]
-**When: [Multiple conditions present]**
-1. Primary Focus:
-   - Main treatment
-   - Priority order
-
-2. Integration Notes:
-   - How treatments interact
+2. Treatment Details
+   - Exact medication/supplement names
+   - Specific dosages
+   - Administration frequency
    - Timing considerations
 
-3. Monitoring:
-   - Combined markers
-   - Frequency
-```
+3. Monitoring Requirements
+   - Which labs to check
+   - Frequency of monitoring
+   - Target values
 
-## Required Elements
+4. Progression Criteria
+   - When to advance treatment
+   - What indicates success
+   - When to try alternative approaches
 
-Every guideline entry should include:
-1. Clear trigger conditions
-2. Specific dosages/frequencies
-3. Monitoring requirements
-4. Progression criteria
-5. Target outcomes
+## Example of a Well-Formatted Guideline
 
-## Example of Adding New Guideline
-
-Original:
-```markdown
-### Metabolic Health
-[existing content]
-```
-
-Adding New Section:
-```markdown
-### Metabolic Health
-[existing content remains]
+Here's how a complete guideline should look:
 
 ### Insulin Resistance with Inflammation
 **When: Elevated HbA1c >5.7% AND hs-CRP >3.0**
+
 1. Primary Protocol:
-   - Metformin: 500mg BID with meals
-   - Berberine: 500mg TID with meals
-   
-2. Anti-Inflammatory Support:
-   - EPA/DHA: 3g daily
-   - Curcumin: 1000mg daily
-   
-3. Monitoring:
-   - HbA1c every 3 months
-   - hs-CRP every 3 months
-   - Fasting insulin monthly
-
-4. Progression Criteria:
-   - If no improvement after 3 months
-   - If hs-CRP remains >3.0
-```
-
-## Best Practices
-
-1. Organization:
-   - Keep related conditions together
-   - Use consistent header levels
-   - Maintain logical progression
-
-2. Clarity:
-   - Be specific with values
-   - Include units
-   - Define terms if needed
-
-3. Updates:
-   - Add new content at the end of relevant sections
-   - Don't delete old guidelines without discussion
-   - Note any major changes
-
-4. Formatting:
-   - Use bullet points for lists
-   - Number steps in procedures
-   - Include blank lines between sections
-
-## Common Mistakes to Avoid
-
-1. DON'T:
-   - Mix different formats within same condition
-   - Leave out monitoring requirements
-   - Skip progression criteria
-   - Use inconsistent units
-
-2. DO:
-   - Double-check your formatting
-   - Include all required elements
-   - Maintain consistent style
-   - Add reference ranges
-
-## Questions to Answer Before Adding
-
-1. Does this guideline:
-   - Have clear trigger conditions?
-   - Include specific dosages?
-   - Define monitoring requirements?
-   - Specify when to progress treatment?
-   - Note any contraindications?
-
-2. Is it organized with:
-   - Correct header levels?
-   - Consistent formatting?
-   - Clear progression steps?
-   - All required elements?
-
-## Need Help?
-
-If unsure about:
-1. Formatting: Reference existing similar guidelines
-2. Organization: Check the main categories
-3. Structure: Use the templates provided
-4. Content: Consult with team leads
-
-Remember: Consistency in formatting helps maintain the usability and reliability of the guidelines system.
