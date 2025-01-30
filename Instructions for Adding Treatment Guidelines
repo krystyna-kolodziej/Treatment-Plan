@@ -1,0 +1,54 @@
+# Instructions for Adding Treatment Guidelines
+
+## Basic Formatting Rules
+
+1. Use Markdown Headers:
+```markdown
+# Main Category (e.g., System)
+## Subcategory
+### Specific Condition
+```
+
+2. Standard Protocol Format:
+```markdown
+### [Condition Name]
+**When: [List trigger conditions]**
+1. Initial Approach:
+   - Treatment: dosage and frequency
+   - Monitoring requirements
+
+2. If No Improvement:
+   - Next step treatment
+   - Timeline for progression
+```
+
+## Template Structures
+
+### Basic Protocol Template:
+```markdown
+### [Condition Name]
+**When: [Lab values or symptoms that trigger this protocol]**
+1. Primary Protocol:
+   - Medication/Supplement: dosage
+   - Additional treatment: details
+   
+2. Support Protocol:
+   - Supporting treatments
+   - Monitoring needs
+
+3. Progression Criteria:
+   - When to move to next step
+   - What to monitor
+```
+
+### Complex Protocol Template:
+```markdown
+### [Condition Name]
+**When: [Multiple trigger conditions]**
+
+**Severity Level 1:**
+1. Initial Approach:
+   - Treatment A: dosage
+   - Treatment B: dosage
+
+2. Monito
