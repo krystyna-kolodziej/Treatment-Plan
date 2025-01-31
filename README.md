@@ -36,6 +36,32 @@ A comprehensive system for generating evidence-based treatment plans using stand
    - Treatment progressions
    - Monitoring requirements
 
+3. **Clinical Resources (`clinical-resources.md`)**
+   - Implementation guides
+   - Educational content
+   - Clinical pearls
+   - Background information
+
+## 🔍 How Components Work Together
+
+1. **Treatment Generation**
+   - Prompt analyzes input data
+   - References treatment guidelines
+   - Generates structured recommendations
+   - Links to relevant resources
+
+2. **Output Structure**
+   - Primary recommendations (concise, actionable)
+   - Supporting information (detailed, educational)
+   - Implementation guidance
+   - Monitoring protocols
+
+3. **Resource Integration**
+   - Each recommendation links to relevant education
+   - Access detailed implementation guides
+   - Review clinical background
+   - Reference supporting evidence
+
 ## 📝 Input Template
 
 ```markdown
@@ -113,6 +139,12 @@ A comprehensive treatment plan including:
    - Lab retesting schedule
    - Progress indicators
 
+5. **Educational Resources**
+   - Condition information
+   - Implementation guides
+   - Clinical background
+   - Supporting evidence
+
 ## 📈 Expanding the System
 
 To add new guidelines:
@@ -123,6 +155,7 @@ To add new guidelines:
    - Treatment protocols
    - Progression criteria
    - Monitoring requirements
+4. Update supporting information in `clinical-resources.md`
 
 ## 🤝 Contributing
 
@@ -144,11 +177,27 @@ To add new guidelines:
    - Follow the input template exactly
    - Include all required sections
    - Review generated plans carefully
+   - Reference supporting resources
 
 3. **Updating Guidelines**
    - Maintain consistent formatting
    - Include reference ranges
    - Document progression criteria
+   - Update related resources
+
+## 🔍 Navigating Resources
+
+1. **Treatment Guidelines**
+   - Quick reference protocols
+   - Clear decision points
+   - Specific interventions
+   - Treatment thresholds
+
+2. **Clinical Resources**
+   - Detailed implementation guides
+   - Educational content
+   - Clinical pearls
+   - Supporting evidence
 
 ## 📫 Support
 
@@ -156,12 +205,6 @@ If you need help:
 - Open an issue in this repository
 - Submit a pull request with improvements
 - Contact the maintainers
-
-# Treatment Plan Generation System
-
-📚 [View Instructions for Adding Guidelines](INSTRUCTIONS.md) 
-
-[Rest of your README content...]
 
 ## 📜 License
 
